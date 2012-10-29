@@ -1,0 +1,10 @@
+{application, logging,
+ [
+  {description, "Logging API Application Loaded"},
+  {vsn, "0.0.1"},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {application_starter, [logging_app, []]}}
+ ]}.
